@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 body {
   background-image: url("blob-scene-haikei1.svg");
   /* background-color: rgb(251, 133, 0); */
-  background-position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Spectral", serif;
@@ -91,13 +91,21 @@ hr {
   border-right-color: #fca311;
   border-right-width: 15%;
 }
+.mypos {
+  position: fixed;
+}
+.mypos p,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
 .img-text {
   color: #f4f7fc;
 }
 
 .nav-text {
-  font-size: large;
+  font-size: larger;
   color: #fca311;
+  font-family: "Montserrat", sans-serif;
 }
 
 .lee-slide-l1 {
@@ -126,6 +134,7 @@ footer {
   padding: 10px;
   animation-duration: 4s;
   animation-delay: 4s;
+  position: fixed;
 }
 
 footer img {
@@ -176,15 +185,19 @@ footer hr {
   transition: 0.2s;
   background-image: linear-gradient(to right bottom, #fca311, #f5b728, #14213d);
   color: azure;
-  font-family: "Kalam", cursive;
 }
 .myCard:not(:first-child) {
   margin-left: -5rem;
   box-shadow: rgb(0 0 0 / 62%) -40px -1px 9px -2px;
 }
 
-.img-border img {
+.cardApp img {
   border-radius: 5px;
+}
+/* Font style under the card */
+.cardApp p,
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .myCard:hover {
