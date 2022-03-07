@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   font-family: "Spectral", serif;
   font-size: 15px;
+  background-attachment: fixed;
 }
 
 .main-cont {
