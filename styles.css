@@ -183,7 +183,7 @@ footer hr {
   border-radius: 0.7rem;
   /* box-shadow: rgb(0 0 0 / 46%) -11px 6px 23px 14px; */
   transition: 0.2s;
-  background-image: linear-gradient(to right bottom, #fca311, #f5b728, #14213d);
+  background-image: linear-gradient(to right bottom, #fca311, #f1c255);
   color: azure;
 }
 .myCard:not(:first-child) {
@@ -198,6 +198,10 @@ footer hr {
 .cardApp p,
 h3 {
   font-family: "Montserrat", sans-serif;
+}
+
+.cardApp h3 {
+  color: #14213d;
 }
 
 .myCard:hover {
